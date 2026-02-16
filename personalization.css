@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 38, 0) 0px,
+        orange 120px,
+        white 120px,
+        white 100%
+    );
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin: 0 auto ;
+    border: 3px dotted black;
+    object-fit: cover;
+}
+
+.primeiras-informacoes {
+    display: flex;
+    align-items: center;
+    display: block;
+    margin: 0 auto auto 0;
+    border: 3px dotted rgb(255, 11, 11);
+}
+
+.name {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.description {
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
