@@ -64,7 +64,7 @@ body {
     position: relative;
     overflow: hidden;
     display: flex;
-    margin: auto auto auto auto;
+    margin: auto 0 auto auto;
 
 }
 
@@ -90,21 +90,12 @@ body {
     align-items: center;
 }
 
-.nome_livro {
-    font-style: italic;
-    font-weight: bold;
-}
-
-.palavra_lingua_estrangeira {
-    font-style: italic;
-}
-
 
 .organizando-projeto {
     width: 100%;
 }
 
-.caixa_explicativa_projeto{
+.caixa_explicativa_projeto_a_esquerda {
     align-items: left;
     width: 40%;
     display: block;
